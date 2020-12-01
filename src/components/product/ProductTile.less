@@ -1,0 +1,47 @@
+.product-tile {
+    border: 1px solid #CAD2D8;
+    box-sizing: border-box;
+    border-radius: 12px;
+    word-break: break-all;
+    padding: 1rem;
+    background-color: white;
+
+    .product-image {
+        max-width: 200px;
+        max-height: 200px;
+        margin: auto;
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+
+    .product-name {
+        padding-top: 1rem;
+    }
+
+    .product-price {
+        padding-top: 1rem;
+        text-align: right;
+
+        span:first-child {
+            font-style: italic;
+            font-size: 14px;
+            padding-right: 1rem;
+        }
+
+        .price {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: right;
+        }
+    }
+
+    .product-actions {
+        text-align: right;
+        padding-top: 24px;
+    }
+}
